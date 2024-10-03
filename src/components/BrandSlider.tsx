@@ -1,6 +1,3 @@
-import React from "react";
-interface Props extends React.ComponentProps<"div"> {}
-
 import br1 from "../assets/img/brand/br1.png";
 import br2 from "../assets/img/brand/br2.png";
 import br3 from "../assets/img/brand/br3.png";
@@ -224,8 +221,8 @@ const imgList = [
 export const BrandSlider = () => {
   return (
     <section
-      //   className="brand__slider d-lg-none d-block"
-      //   data-aos="fade-up"
+    //   className="brand__slider d-lg-none d-block"
+    //   data-aos="fade-up"
     //   data-aos-duration={1000}
     >
       <div className="container">
