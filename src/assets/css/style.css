@@ -1,0 +1,354 @@
+/* Base CSS */
+.alignleft {
+  float: left;
+  margin-right: 15px;
+}
+.alignright {
+  float: right;
+  margin-left: 15px;
+}
+.aligncenter {
+  display: block;
+  margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+*{box-sizing: border-box;}
+img {
+  max-width: 100%;
+  height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin: 0 0 15px;
+color: #fff;
+font-family: 'Albertson';
+}
+body {
+color: #fff;
+font-weight: 400;
+font-family: 'Arial';
+background: #000;
+}
+
+
+@font-face {
+  font-family: 'Albertson';
+  src: url('../fonts/Albertson.woff2') format('woff2'),
+      url('../fonts/Albertson.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Albertson';
+  src: url('../fonts/Albertson.woff2') format('woff2'),
+      url('../fonts/Albertson.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Arial MT';
+  src: url('../fonts/ArialMTBlack.woff2') format('woff2'),
+      url('../fonts/ArialMTBlack.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Arial Th';
+  src: url('../fonts/ArialTh.woff2') format('woff2'),
+      url('../fonts/ArialTh.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Arial Narrow';
+  src: url('../fonts/ArialNarrow.woff2') format('woff2'),
+      url('../fonts/ArialNarrow.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Arial GEO';
+  src: url('../fonts/ArialGEOBold.woff2') format('woff2'),
+      url('../fonts/ArialGEOBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geo_Arial';
+  src: url('../fonts/GeoArialItalic.woff2') format('woff2'),
+      url('../fonts/GeoArialItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Arial GEO';
+  src: url('../fonts/ArialGEOItalic.woff2') format('woff2'),
+      url('../fonts/ArialGEOItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Arial';
+  src: url('../fonts/ArialMT.woff2') format('woff2'),
+      url('../fonts/ArialMT.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+.selector-for-some-widget {
+box-sizing: content-box;
+}
+a:hover { text-decoration: none }
+
+button:focus {
+outline: 0;
+outline: 5px auto -webkit-focus-ring-color;
+}
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+
+.container {
+max-width: 1340px;
+}
+.header {
+padding: 30px 0;
+position: fixed;
+left: 0;
+right: 0;
+margin: auto;
+top: 0;
+background: #0000003b;
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+z-index: 99;
+box-shadow: 18px 0 10px #000;
+}
+.header__flex {
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.header__btn a {
+font-size: 16px;
+text-transform: uppercase;
+text-decoration: none;
+color: #fff;
+padding: 9px 25px;
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+display: block;
+transition: .3s;
+}
+.hero {
+padding-top: 260px;
+text-align: center;
+padding-bottom: 100px;
+}
+.hero .container {
+max-width: 1000px;
+}
+.hero__top--text span {
+display: block;
+text-align: right;
+margin-bottom: 38px;
+padding-right: 128px;
+}
+.hero__top--text h1 {
+font-size: 146px;
+line-height: 101px;
+margin-bottom: 30px;
+}
+
+.hero__top--text p {
+font-size: 20px;
+margin: 0;
+}
+.hero__top--text p a {
+font-weight: 700;
+color: #FFF;
+text-decoration: none;
+}
+.hero__top--text p span {
+font-weight: 700;
+}
+
+
+.hero__top--text {
+margin-bottom: 120px;
+}
+.hero__mid--text h2 {
+font-size: 100px;
+margin-bottom: 5px;
+}
+.hero__mid--text p {
+font-size: 20px;
+margin-bottom: 20px;
+}
+.hero__mid--text p:last-child {
+margin: 0;
+}
+.hero__mid--text {
+max-width: 675px;
+margin: auto;
+margin-bottom: 150px;
+}
+
+
+
+.hero__card--flex {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+max-width: 900px;
+margin: auto;
+margin-bottom: 80px;
+}
+.single__hero--card {
+background: #CCCC66;
+border-radius: 14px;
+width: 31%;
+padding: 16px;
+min-height: 390px;
+}
+.single__hero--card h3 {
+font-size: 48px;
+color: #000000;
+margin-bottom: 50px;
+}
+.single__hero--card a {
+font-size: 16px;
+color: #fff;
+text-decoration: none;
+padding: 8px;
+display: block;
+background: #000;
+border-radius: 8px;
+transition: .3s;
+}
+.header__btn a:hover {
+background: #fff;
+color: #000;
+}
+.single__hero--card a:hover {
+background: #fff;
+color: #000;
+}
+.hero__last-text h2 {
+font-size: 100px;
+margin: 0;
+margin-top: 130px !important;
+}
+
+
+
+.single__hero--card:nth-child(2) {
+background: #CCCCCC;
+}
+.single__hero--card:nth-child(3) {
+background: #996633;
+}
+
+
+
+
+
+
+.site__body{
+background-image: url(../img/body-bg.png);
+background-position: center 120px;
+background-repeat: no-repeat;
+background-size: contain;
+background-attachment: fixed;
+}
+
+
+.brand__area {
+padding-bottom: 100px;
+}
+.brand__title h1 {
+margin-bottom: 40px;
+}
+.brand__flex{
+display: flex;
+align-items: center;
+justify-content: center;
+max-width: 1000px;
+margin: auto;
+gap: 40px;
+flex-wrap: wrap;
+}
+.single__brand a {
+display: block;
+}
+.single__brand img {
+width: 220px;
+transition: transform .3s ease-in-out;
+}
+.single__brand img:hover{
+transform: scale(1.2);
+}
+
+
+
+
+
+
+.brand__active .owl-stage-outer {
+padding: 20px 0;
+}
+.brand__active .single__brand {
+display: flex;
+justify-content: center;
+}
+.brand__active .single__brand img {
+width: 220px !important;
+}
+.brand__active .owl-stage {
+display: flex;
+align-items: center;
+}
+
+
+
+.single__hero--card{
+background-image: url(../img/c1.png) !important;
+background-position: center !important;
+background-size: contain;
+background-repeat: no-repeat !important;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.single__hero--card p {
+color: #000;
+min-height: 100px;
+font-size: 19px;
+}

@@ -1,0 +1,113 @@
+
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+.hero__top--text span {
+  padding-right: 122px;
+}
+.hero__top--text h1 {
+  font-size: 100px;
+  line-height: 80px;
+  margin-bottom: 20px;
+}
+.hero__top--text p {
+  font-size: 16px;
+}
+.hero__top--text span img {
+  max-width: 127px;
+}
+.hero {
+  padding-top: 200px;
+}
+.hero__top--text {
+  margin-bottom: 80px;
+}
+.hero__mid--text h2 {
+  font-size: 60px;
+}
+.hero__mid--text p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.hero__mid--text {
+  margin-bottom: 100px;
+}
+.hero__last-text h2 {
+  font-size: 60px;
+}
+
+
+	
+}
+ 
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+
+.hero__top--text span {
+  padding-right: 19px;
+  margin-bottom: 20px;
+}
+.hero__top--text h1 {
+  font-size: 56px;
+  line-height: 41px;
+  margin-bottom: 20px;
+}
+.hero__top--text p {
+  font-size: 14px;
+}
+.hero__top--text span img {
+  max-width: 77px;
+}
+.hero {
+  padding-top: 153px;
+}
+.site__logo {
+  max-width: 80px;
+}
+.header {
+  padding: 15px 0;
+}
+.header__btn a {
+  font-size: 14px;
+  padding: 6px 21px;
+}
+.single__hero--card {
+  width: 100%;
+  margin-bottom: 25px;
+}
+.hero__card--flex {
+  margin-bottom: 50px;
+}
+.hero__top--text {
+  margin-bottom: 60px;
+}
+.hero__mid--text h2 {
+  font-size: 40px;
+}
+.hero__mid--text p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.hero__mid--text {
+  margin-bottom: 100px;
+}
+.hero__last-text h2 {
+  font-size: 40px;
+}
+}
+
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+ 
+}
