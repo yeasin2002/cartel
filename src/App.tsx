@@ -10,7 +10,7 @@ const App = () => {
       <main className="site__body">
         <Hero />
         <Brand />
-        <BrandSlider imgList={shuffledImages} />
+        <BrandSlider imgList={imgList} />
         <BrandSlider imgList={shuffledImages} />
       </main>
     </div>
