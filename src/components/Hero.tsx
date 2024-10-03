@@ -1,4 +1,5 @@
 import React from "react";
+import baseImg from "../assets/img/base-img.png";
 interface Props extends React.ComponentProps<"div"> {}
 
 export const Hero = ({ ...props }: Props) => {
@@ -14,7 +15,7 @@ export const Hero = ({ ...props }: Props) => {
                 data-aos-duration={1000}
               >
                 <span>
-                  <img src="assets/img/base-img.png" alt="" />
+                  <img src={baseImg} alt="" />
                 </span>
                 <h1>The Based Cartel</h1>
                 <p>

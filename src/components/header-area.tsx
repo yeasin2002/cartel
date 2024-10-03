@@ -1,4 +1,5 @@
 import React from "react";
+import siteLogo from "../assets/img/site-logo.png";
 interface Props extends React.ComponentProps<"header"> {}
 
 export const HeaderArea = ({ ...props }: Props) => {
@@ -10,7 +11,7 @@ export const HeaderArea = ({ ...props }: Props) => {
             <div className="header__flex">
               <div className="site__logo">
                 <a href="https://t.me/basedcartel">
-                  <img src="img/site-logo.png" alt="" />
+                  <img src={siteLogo} alt="" />
                 </a>
               </div>
               <div className="header__btn">
