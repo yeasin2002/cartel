@@ -1,218 +1,181 @@
-import br1 from "../assets/img/brand/br1.png";
-import br2 from "../assets/img/brand/br2.png";
-import br3 from "../assets/img/brand/br3.png";
-import br4 from "../assets/img/brand/br4.png";
-import br5 from "../assets/img/brand/br5.png";
-import br6 from "../assets/img/brand/br6.png";
-import br7 from "../assets/img/brand/br7.png";
-import br8 from "../assets/img/brand/br8.png";
-import br9 from "../assets/img/brand/br9.png";
-import br10 from "../assets/img/brand/br10.png";
-import br11 from "../assets/img/brand/br11.png";
-import br12 from "../assets/img/brand/br12.png";
-import br13 from "../assets/img/brand/br13.png";
-import br14 from "../assets/img/brand/br14.png";
-import br15 from "../assets/img/brand/br15.png";
-import br16 from "../assets/img/brand/br16.png";
-import br17 from "../assets/img/brand/br17.png";
-import br18 from "../assets/img/brand/br18.png";
-import br19 from "../assets/img/brand/br19.png";
-import br20 from "../assets/img/brand/br20.png";
-import br21 from "../assets/img/brand/br21.png";
-import br22 from "../assets/img/brand/br22.png";
-import br23 from "../assets/img/brand/br23.png";
-import br24 from "../assets/img/brand/br24.png";
-import br25 from "../assets/img/brand/br25.png";
-import br26 from "../assets/img/brand/br26.png";
-import br27 from "../assets/img/brand/br27.png";
-import br28 from "../assets/img/brand/br28.png";
-import br29 from "../assets/img/brand/br29.png";
-import br30 from "../assets/img/brand/br30.png";
-import br31 from "../assets/img/brand/br31.png";
-import br32 from "../assets/img/brand/br32.png";
-import br33 from "../assets/img/brand/br33.png";
-import br34 from "../assets/img/brand/br34.png";
-import br35 from "../assets/img/brand/br35.png";
-import br36 from "../assets/img/brand/br36.png";
-
 export const imgList = [
   {
-    src: br1,
+    src: "/assets/img/brand/br1.png",
     alt: "",
     link: "#",
   },
   {
-    src: br2,
+    src: "/assets/img/brand/br2.png",
     alt: "",
     link: "#",
   },
   {
-    src: br3,
+    src: "/assets/img/brand/br3.png",
     alt: "",
     link: "#",
   },
   {
-    src: br4,
+    src: "/assets/img/brand/br4.png",
     alt: "",
     link: "#",
   },
   {
-    src: br5,
+    src: "/assets/img/brand/br5.png",
     alt: "",
     link: "#",
   },
   {
-    src: br6,
+    src: "/assets/img/brand/br6.png",
     alt: "",
     link: "#",
   },
   {
-    src: br7,
+    src: "/assets/img/brand/br7.png",
     alt: "",
     link: "#",
   },
   {
-    src: br8,
+    src: "/assets/img/brand/br8.png",
     alt: "",
     link: "#",
   },
   {
-    src: br9,
+    src: "/assets/img/brand/br9.png",
     alt: "",
     link: "#",
   },
   {
-    src: br10,
+    src: "/assets/img/brand/br10.png",
     alt: "",
     link: "#",
   },
   {
-    src: br11,
+    src: "/assets/img/brand/br11.png",
     alt: "",
     link: "#",
   },
   {
-    src: br12,
+    src: "/assets/img/brand/br12.png",
     alt: "",
     link: "#",
   },
   {
-    src: br13,
+    src: "/assets/img/brand/br13.png",
     alt: "",
     link: "#",
   },
   {
-    src: br14,
+    src: "/assets/img/brand/br14.png",
     alt: "",
     link: "#",
   },
   {
-    src: br15,
+    src: "/assets/img/brand/br15.png",
     alt: "",
     link: "#",
   },
   {
-    src: br16,
+    src: "/assets/img/brand/br16.png",
     alt: "",
     link: "#",
   },
   {
-    src: br17,
+    src: "/assets/img/brand/br17.png",
     alt: "",
     link: "#",
   },
   {
-    src: br18,
+    src: "/assets/img/brand/br18.png",
     alt: "",
     link: "#",
   },
   {
-    src: br19,
+    src: "/assets/img/brand/br19.png",
     alt: "",
     link: "#",
   },
   {
-    src: br20,
+    src: "/assets/img/brand/br20.png",
     alt: "",
     link: "#",
   },
   {
-    src: br21,
+    src: "/assets/img/brand/br21.png",
     alt: "",
     link: "#",
   },
   {
-    src: br22,
+    src: "/assets/img/brand/br22.png",
     alt: "",
     link: "#",
   },
   {
-    src: br23,
+    src: "/assets/img/brand/br23.png",
     alt: "",
     link: "#",
   },
   {
-    src: br24,
+    src: "/assets/img/brand/br24.png",
     alt: "",
     link: "#",
   },
   {
-    src: br25,
+    src: "/assets/img/brand/br25.png",
     alt: "",
     link: "#",
   },
   {
-    src: br26,
+    src: "/assets/img/brand/br26.png",
     alt: "",
     link: "#",
   },
   {
-    src: br27,
+    src: "/assets/img/brand/br27.png",
     alt: "",
     link: "#",
   },
   {
-    src: br28,
+    src: "/assets/img/brand/br28.png",
     alt: "",
     link: "#",
   },
   {
-    src: br29,
+    src: "/assets/img/brand/br29.png",
     alt: "",
     link: "#",
   },
   {
-    src: br30,
+    src: "/assets/img/brand/br30.png",
     alt: "",
     link: "#",
   },
   {
-    src: br31,
+    src: "/assets/img/brand/br31.png",
     alt: "",
     link: "#",
   },
   {
-    src: br32,
+    src: "/assets/img/brand/br32.png",
     alt: "",
     link: "#",
   },
   {
-    src: br33,
+    src: "/assets/img/brand/br33.png",
     alt: "",
     link: "#",
   },
   {
-    src: br34,
+    src: "/assets/img/brand/br34.png",
     alt: "",
     link: "#",
   },
   {
-    src: br35,
+    src: "/assets/img/brand/br35.png",
     alt: "",
     link: "#",
   },
   {
-    src: br36,
+    src: "/assets/img/brand/br36.png",
     alt: "",
     link: "#",
   },

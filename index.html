@@ -10,92 +10,38 @@
 
     <title>The Based Cartel | Join The Family!</title>
 
-    <link href="/src/assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/src/assets/css/all.min.css" rel="stylesheet" />
-    <link href="/src/assets/css/fontawesome.css" rel="stylesheet" />
-    <link href="/src/assets/css/owl.carousel.min.css" rel="stylesheet" />
-    <link href="/src/assets/css/aos.css" rel="stylesheet" />
-    <link href="/src/assets/css/default.css" rel="stylesheet" />
-    <link href="/src/assets/css/style.css" rel="stylesheet" />
-    <link href="/src/assets/css/responsive.css" rel="stylesheet" />
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/assets/css/all.min.css" rel="stylesheet" />
+    <link href="/assets/css/fontawesome.css" rel="stylesheet" />
+    <!-- <link href="/assets/css/owl.carousel.min.css" rel="stylesheet" /> -->
+    <!-- <link href="/assets/css/aos.css" rel="stylesheet" /> -->
+    <link href="/assets/css/default.css" rel="stylesheet" />
+    <link href="/assets/css/style.css" rel="stylesheet" />
+    <link href="/assets/css/responsive.css" rel="stylesheet" />
 
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="/src/assets/SEO/apple-touch-icon.png"
+      href="/assets/SEO/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="/src/assets/SEO/favicon-32x32.png"
+      href="/assets/SEO/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="/src/assets/SEO/favicon-16x16.png"
+      href="/assets/SEO/favicon-16x16.png"
     />
-    <link rel="manifest" href="/src/assets/SEO/site.webmanifest" />
+    <link rel="manifest" href="/assets/SEO/site.webmanifest" />
   </head>
   <body>
     <div id="root"></div>
 
-
     <script type="module" src="/src/main.tsx"></script>
-
-
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="/src/assets/js/jquery-3.7.1.min.js"></script>
-        <script src="/src/assets/js/Popper.js"></script>
-        <script src="/src/assets/js/bootstrap.min.js"></script>
-        <script src="/src/assets/js/owl.carousel.min.js"></script>
-        <script src="/src/assets/js/aos.js"></script>
-        <script src="/src/assets/js/main.js"></script>
-    
-        <!-- <script>
-          const brand__active = document.querySelector(".brand__active");
-          brand__active.owlCarousel({
-            loop: true,
-            margin: 10,
-            autoplay: true,
-            autoplayTimeout: 3000,
-            smartSpeed: 1000,
-            nav: false,
-            responsive: {
-              0: {
-                items: 1,
-              },
-              480: {
-                items: 2,
-              },
-              768: {
-                items: 3,
-              },
-            },
-          });
-        </script> -->
-    
-        <script>
-        
-          document?.addEventListener("DOMContentLoaded", function () {
-            var brandContainer = document.getElementById("brandContainer");
-            var brands = Array.from(brandContainer?.children);
-    
-            function shuffle(array) {
-              for (let i = array.length - 1; i > 0; i--) {
-                let j = Math.floor(Math.random() * (i + 1));
-                [array[i], array[j]] = [array[j], array[i]];
-              }
-              return array;
-            }
-    
-            var shuffledBrands = shuffle(brands);
-    
-            shuffledBrands.forEach(function (brand) {
-              brandContainer.appendChild(brand);
-            });
-          });
-        </script>
+    <script src="/assets/js/jquery-3.7.1.min.js"></script>
   </body>
 </html>

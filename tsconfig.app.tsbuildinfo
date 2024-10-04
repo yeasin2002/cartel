@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/Brand.tsx","./src/components/BrandSlider.tsx","./src/components/Hero.tsx","./src/components/OutReach.tsx","./src/components/header-area.tsx","./src/components/index.ts","./src/data/brandImageList.data.ts","./src/data/index.ts","./src/utils/index.ts","./src/utils/randomShuffle.ts"],"version":"5.6.2"}
