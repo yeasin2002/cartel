@@ -1,0 +1,52 @@
+@media only screen and (max-width: 740px) {
+  #OutReach {
+    .showOnlyLarge {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 741px) {
+  #OutReach {
+    .showOnlyLarge {
+      display: inline;
+    }
+  }
+}
+
+#OutReach {
+  #OutReach-main-text {
+    padding: 0.5rem 0;
+    font-size: medium;
+  }
+  .showOnlyLarge {
+    color: #996533;
+  }
+
+  table {
+    width: 100%;
+    text-align: left;
+  }
+
+  .tableYellowData {
+    background-color: #cbcb67;
+    border-radius: 1rem;
+
+    td {
+      padding: 0.5rem;
+      color: black;
+      font-weight: bold;
+    }
+  }
+
+  .tableDarkData {
+    background-color: black;
+    border-radius: 1rem;
+
+    td {
+      padding: 0.5rem;
+      color: white;
+      font-weight: bold;
+    }
+  }
+}

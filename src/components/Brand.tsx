@@ -4,8 +4,18 @@ interface Props extends React.ComponentProps<"div"> {}
 export const Brand = ({ ...props }: Props) => {
   return (
     <div {...props}>
+      <div
+        className="hero__last-text"
+        data-aos="fade-up"
+        data-aos-duration={1000}
+      >
+        <h2 className="text-center " style={{ marginBottom: "5rem" }}>
+          Based Cartel Families
+        </h2>
+      </div>
+
       <section
-        className="brand__area d-none d-lg-block"
+        className="brand__area d-none d-lg-block "
         data-aos="fade-up"
         data-aos-duration={1000}
       >

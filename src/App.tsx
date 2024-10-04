@@ -1,4 +1,5 @@
-import { HeaderArea, Hero, Brand, BrandSlider } from "./components";
+import { HeaderArea, Hero, Brand, BrandSlider, OutReach } from "./components";
+
 import { imgList } from "./data";
 import { shuffleImgList } from "./utils/randomShuffle";
 
@@ -9,6 +10,7 @@ const App = () => {
       <HeaderArea />
       <main className="site__body">
         <Hero />
+        <OutReach />
         <Brand />
         <BrandSlider imgList={imgList} />
         <BrandSlider imgList={shuffledImages} />

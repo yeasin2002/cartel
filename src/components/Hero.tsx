@@ -98,13 +98,6 @@ export const Hero = ({ ...props }: Props) => {
                   <a href="#">MINT NOT AVAILABLE</a>
                 </div>
               </div>
-              <div
-                className="hero__last-text"
-                data-aos="fade-up"
-                data-aos-duration={1000}
-              >
-                <h2>Based Cartel Families</h2>
-              </div>
             </div>
           </div>
         </div>
