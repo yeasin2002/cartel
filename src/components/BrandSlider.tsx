@@ -38,6 +38,7 @@ export const BrandSlider = ({ imgList }: Props) => {
       className="brand__slider d-lg-none d-block"
       data-aos="fade-up"
       data-aos-duration={1000}
+
     >
       <div className="brand__active">
         <OwlCarousel className="owl-theme" {...options}>

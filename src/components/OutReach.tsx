@@ -21,7 +21,7 @@ export const OutReach = () => {
   ];
 
   return (
-    <div id="OutReach">
+    <div id="OutReach" className="container">
       <div
         className="hero__last-text"
         data-aos="fade-up"
@@ -33,7 +33,8 @@ export const OutReach = () => {
       </div>
 
       <div
-        className="m-1 p-1 m-sm-4 p-sm-4"
+        // className="m-1 p-1 m-sm-4 p-sm-4"
+        className="p-1"
         style={{
           borderTop: "1px solid #FFFFFF",
           borderRadius: "10px",
@@ -45,7 +46,7 @@ export const OutReach = () => {
           us a message on X, or send an email to thebasedcartel@gmail.com.
         </p>
 
-        <table>
+        <table className="OutReach-table">
           <tr className="tableYellowData">
             <td>based</td>
             <td>
