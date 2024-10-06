@@ -296,7 +296,6 @@ ul {
   gap: 40px;
   flex-wrap: wrap;
 }
-/* @media (min-width: 601px) and (max-width: 1024px) {} */
 
 .single__brand a {
   display: block;
