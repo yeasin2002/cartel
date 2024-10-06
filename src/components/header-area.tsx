@@ -9,9 +9,13 @@ export const HeaderArea = ({ ...props }: Props) => {
         <div className="row">
           <div className="col-lg-12">
             <div className="header__flex">
-              <div className="site__logo">
-                <a href="https://t.me/basedcartel">
-                  <img src={"/assets/img/site-logo.png"} alt="" />
+              <div className="site__logo" id="logo-wrapper">
+                <a href="https://twitter.com/home">
+                  X{/* <img src={"/assets/img/site-logo.png"} alt="" /> */}
+                </a>
+
+                <a href="https://web.telegram.org/">
+                  TG{/* <img src={"/assets/img/site-logo.png"} alt="" /> */}
                 </a>
               </div>
               <div className="header__btn">

@@ -3,13 +3,13 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 AOS.init();
 
-import { HeaderArea, Hero, Brand, BrandSlider, OutReach } from "./components";
+import { HeaderArea, Hero, Brand, OutReach } from "./components";
 
-import { imgList } from "./data";
-import { shuffleImgList } from "./utils/randomShuffle";
+// import { imgList } from "./data";
+// import { shuffleImgList } from "./utils/randomShuffle";
 
 const App = () => {
-  const shuffledImages = shuffleImgList(imgList);
+  // const shuffledImages = shuffleImgList(imgList);
   return (
     <div>
       <HeaderArea />
@@ -17,8 +17,8 @@ const App = () => {
         <Hero />
         <OutReach />
         <Brand />
-        <BrandSlider imgList={imgList} />
-        <BrandSlider imgList={shuffledImages} />
+        {/* <BrandSlider imgList={imgList} /> */}
+        {/* <BrandSlider imgList={shuffledImages} /> */}
       </main>
     </div>
   );

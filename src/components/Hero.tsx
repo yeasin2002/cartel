@@ -29,6 +29,9 @@ export const Hero = ({ ...props }: Props) => {
                 data-aos="fade-up"
                 data-aos-duration={1000}
                 data-aos-delay={100}
+                style={{
+                  maxWidth: "100%",
+                }}
               >
                 <h2>Official NFT Mint</h2>
                 <p>
