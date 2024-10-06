@@ -287,24 +287,16 @@ ul {
   margin-bottom: 40px;
 }
 
-@media (max-width: 600px) {
-  .brand__flex {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+.brand__flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+  gap: 40px;
+  flex-wrap: wrap;
 }
-
-@media (min-width: 601px) and (max-width: 1024px) {
-  .brand__flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 1000px;
-    margin: auto;
-    gap: 40px;
-    flex-wrap: wrap;
-  }}
-
+/* @media (min-width: 601px) and (max-width: 1024px) {} */
 
 .single__brand a {
   display: block;
